@@ -610,7 +610,7 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "dh" = (
-/mob/living/carbon/monkey/punpun,
+/mob/living/carbon/human/species/monkey/punpun,
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 1
 	},
@@ -3356,7 +3356,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/mob/living/carbon/monkey/angry,
+/mob/living/carbon/human/species/monkey/angry,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 8
 	},
@@ -3847,7 +3847,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
 	},
-/mob/living/carbon/monkey/angry,
+/mob/living/carbon/human/species/monkey/angry,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "KQ" = (

@@ -1070,7 +1070,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "aDE" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/blue{
@@ -1888,7 +1888,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "aXW" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -3122,14 +3122,14 @@
 	},
 /obj/structure/chair/stool,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "bMC" = (
 /obj/machinery/light{
 	dir = 8
 	},
 /obj/structure/table/wood,
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "bML" = (
 /turf/closed/wall/r_wall,
 /area/maintenance/central)
@@ -3963,7 +3963,7 @@
 "con" = (
 /obj/machinery/holopad,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "cop" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Triage";
@@ -7956,7 +7956,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "eFy" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/airlock/medical/glass{
@@ -11604,7 +11604,7 @@
 "gRp" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "gRB" = (
 /obj/item/stamp/cmo,
 /obj/structure/table/glass,
@@ -12083,7 +12083,7 @@
 /area/ai_monitored/storage/eva)
 "hgh" = (
 /obj/structure/chair/stool/bar,
-/mob/living/carbon/monkey/punpun,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/wood,
 /area/crew_quarters/bar/atrium)
 "hgs" = (
@@ -12562,7 +12562,7 @@
 	},
 /obj/effect/landmark/start/blueshield,
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "hwU" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 10
@@ -14211,7 +14211,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "izt" = (
 /obj/structure/chair/wood{
 	dir = 4
@@ -14335,7 +14335,7 @@
 /turf/open/floor/plating,
 /area/medical/pharmacy)
 "iEw" = (
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/grass,
 /area/medical/virology)
 "iEy" = (
@@ -15648,7 +15648,7 @@
 "jsK" = (
 /obj/structure/chair/stool,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "jtb" = (
 /turf/open/floor/plasteel/chapel{
 	dir = 1
@@ -15689,7 +15689,7 @@
 /area/ai_monitored/storage/eva)
 "jtP" = (
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "juq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/wood,
@@ -16158,7 +16158,7 @@
 	dir = 4
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "jIy" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -16739,7 +16739,7 @@
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "jXM" = (
 /turf/closed/wall,
 /area/security/brig)
@@ -20506,7 +20506,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "mpQ" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/green{
@@ -20634,7 +20634,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "mun" = (
 /obj/effect/turf_decal/trimline/green/filled/arrow_ccw{
 	dir = 8
@@ -23122,7 +23122,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "nKx" = (
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/wood,
@@ -26911,7 +26911,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "pRr" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
@@ -27572,7 +27572,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "qkA" = (
 /obj/machinery/atmospherics/pipe/simple/general/hidden,
 /obj/effect/turf_decal/trimline/yellow/filled/corner,
@@ -28014,7 +28014,7 @@
 "qAC" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "qAM" = (
 /turf/closed/wall,
 /area/medical/exam_room)
@@ -30126,7 +30126,7 @@
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass,
-/area/blueshieldoffice)
+/area/blueshield)
 "rMM" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -30985,7 +30985,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/grass,
 /area/medical/virology)
 "siF" = (
@@ -31642,7 +31642,7 @@
 "sCr" = (
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "sCv" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -33263,7 +33263,7 @@
 /obj/structure/table/wood,
 /obj/item/pinpointer/crew,
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "tAi" = (
 /obj/machinery/door/firedoor,
 /turf/open/floor/plasteel/white,
@@ -33921,7 +33921,7 @@
 	dir = 9
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "tVb" = (
 /turf/open/floor/plasteel/dark,
 /area/security/processing/cremation)
@@ -35585,7 +35585,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "uYH" = (
 /obj/machinery/door/airlock/public/glass,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -36519,7 +36519,7 @@
 /area/maintenance/solars/port/aft)
 "vAm" = (
 /turf/closed/wall,
-/area/blueshieldoffice)
+/area/blueshield)
 "vAP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
@@ -36549,7 +36549,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "vBD" = (
 /obj/structure/chair,
 /obj/effect/landmark/start/roboticist,
@@ -36592,7 +36592,7 @@
 	dir = 8;
 	req_access_txt = "39"
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/grass,
 /area/medical/virology)
 "vDt" = (
@@ -38782,7 +38782,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "wNX" = (
 /obj/machinery/door/window{
 	req_one_access_txt = "32;19"
@@ -39960,7 +39960,7 @@
 /area/bridge)
 "xyk" = (
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "xyl" = (
 /obj/structure/cable,
 /obj/structure/disposalpipe/segment{
@@ -40813,7 +40813,7 @@
 "xZo" = (
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "xZw" = (
 /obj/effect/turf_decal/tile/purple,
 /obj/effect/turf_decal/tile/purple{

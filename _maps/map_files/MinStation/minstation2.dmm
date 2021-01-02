@@ -23,7 +23,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "af" = (
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /obj/structure/window/reinforced/spawner/north,
 /turf/open/floor/plating/grass,
 /area/science/genetics)
@@ -1445,7 +1445,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
 "gz" = (
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /obj/machinery/door/window/westleft{
 	dir = 1;
 	name = "'Monkey Pen";
@@ -3359,7 +3359,7 @@
 	},
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "oX" = (
 /obj/machinery/pipedispenser,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -3940,7 +3940,7 @@
 /area/tcommsat/server)
 "ra" = (
 /turf/closed/wall/r_wall,
-/area/blueshieldoffice)
+/area/blueshield)
 "rc" = (
 /obj/effect/landmark/start/botanist,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -4134,7 +4134,7 @@
 "sf" = (
 /obj/structure/cable,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "sg" = (
 /obj/machinery/door/airlock/engineering/glass{
 	name = "Engineering Foyer";
@@ -5028,7 +5028,7 @@
 /area/engine/gravity_generator)
 "vG" = (
 /obj/structure/safe,
-/obj/item/storage/backpack/satchel/carrot,
+/obj/item/storage/backpack/satchel,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 9
 	},
@@ -5108,7 +5108,7 @@
 "vZ" = (
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "wb" = (
 /obj/machinery/teleport/hub,
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -5466,7 +5466,7 @@
 /obj/structure/table/wood,
 /obj/item/pinpointer/crew,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "xz" = (
 /obj/machinery/recharge_station,
 /obj/machinery/airalarm/directional/north,
@@ -7089,7 +7089,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "DO" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/turf_decal/trimline/white/filled/line{
@@ -7506,7 +7506,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "FE" = (
 /obj/machinery/door/airlock/research/glass{
 	name = "Robotics Lab";
@@ -10115,7 +10115,7 @@
 /obj/machinery/camera/autoname,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "Qr" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 10
@@ -10389,7 +10389,7 @@
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/table/wood,
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "Rx" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
@@ -10594,7 +10594,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "St" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -11918,7 +11918,7 @@
 	dir = 8
 	},
 /turf/open/floor/wood,
-/area/blueshieldoffice)
+/area/blueshield)
 "Yb" = (
 /obj/structure/railing,
 /turf/open/floor/plasteel,

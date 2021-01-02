@@ -2861,7 +2861,7 @@
 	dir = 8;
 	req_access_txt = "39"
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/dark,
 /area/medical/virology)
 "Jv" = (

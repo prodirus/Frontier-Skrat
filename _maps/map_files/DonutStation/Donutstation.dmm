@@ -1737,7 +1737,7 @@
 	},
 /obj/structure/closet/secure_closet/blueshield,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "aes" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -2848,7 +2848,7 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "agZ" = (
 /turf/open/floor/plasteel/grimy,
 /area/chapel/office)
@@ -3112,7 +3112,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "ahF" = (
 /obj/machinery/atmospherics/pipe/manifold/general/visible{
 	dir = 8
@@ -3592,7 +3592,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "aiU" = (
 /obj/machinery/conveyor/inverted{
 	dir = 10;
@@ -5449,7 +5449,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "anf" = (
 /obj/structure/chair{
 	dir = 4
@@ -7404,7 +7404,7 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "arg" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -7457,7 +7457,7 @@
 /area/crew_quarters/heads/captain)
 "arm" = (
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "arn" = (
 /obj/effect/turf_decal/trimline/white/filled/line{
 	dir = 8
@@ -8980,7 +8980,7 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "auI" = (
 /obj/effect/turf_decal/tile/brown{
 	dir = 4
@@ -9435,7 +9435,7 @@
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/east,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "avK" = (
 /obj/effect/turf_decal/tile/red,
 /obj/effect/turf_decal/tile/red{
@@ -11796,7 +11796,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plasteel/dark,
-/area/blueshieldoffice)
+/area/blueshield)
 "aBd" = (
 /obj/effect/turf_decal/tile/green,
 /obj/effect/turf_decal/tile/green{
@@ -12568,7 +12568,7 @@
 /obj/structure/table/wood,
 /obj/item/pinpointer/crew,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "aCS" = (
 /turf/closed/wall/r_wall,
 /area/crew_quarters/heads/captain)
@@ -13442,7 +13442,7 @@
 /turf/open/floor/plasteel/dark,
 /area/science/server)
 "aER" = (
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/white/corner{
 	dir = 8
 	},
@@ -15795,7 +15795,7 @@
 	name = "Genetics Pen";
 	req_access_txt = "9"
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/genetics)
 "aKq" = (
@@ -21949,7 +21949,7 @@
 	name = "Genetics Pen";
 	req_access_txt = "9"
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/genetics)
 "aYd" = (
@@ -21983,11 +21983,11 @@
 	},
 /area/medical/genetics)
 "aYg" = (
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/genetics)
 "aYh" = (
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/white/corner,
 /area/medical/genetics)
 "aYi" = (
@@ -26155,11 +26155,11 @@
 	brightness = 3;
 	dir = 8
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bhD" = (
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bhE" = (
@@ -26178,7 +26178,7 @@
 	dir = 4;
 	network = list("ss13","Medical","Virology")
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bhG" = (
@@ -39134,7 +39134,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "bHN" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/light/small,
@@ -39649,7 +39649,7 @@
 /area/tcommsat/server)
 "bJb" = (
 /turf/closed/wall/r_wall,
-/area/blueshieldoffice)
+/area/blueshield)
 "bJc" = (
 /obj/machinery/telecomms/hub/preset,
 /turf/open/floor/circuit/green/telecomms/mainframe,
@@ -40761,7 +40761,7 @@
 /area/bridge)
 "bLU" = (
 /obj/effect/landmark/event_spawn,
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/genetics)
 "bLV" = (
@@ -40809,7 +40809,7 @@
 /area/security/brig)
 "bMb" = (
 /obj/effect/landmark/xeno_spawn,
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "bMc" = (
@@ -47672,7 +47672,7 @@
 	},
 /obj/structure/table/wood,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "jqp" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 5
@@ -51752,7 +51752,7 @@
 "xlT" = (
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "xmN" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4

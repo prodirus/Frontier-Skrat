@@ -654,7 +654,7 @@
 /area/science/xenobiology)
 "du" = (
 /turf/closed/wall/r_wall/rust,
-/area/blueshieldoffice)
+/area/blueshield)
 "dv" = (
 /obj/structure/lattice,
 /turf/open/space/basic,
@@ -867,7 +867,7 @@
 /obj/effect/landmark/start/blueshield,
 /obj/structure/chair/office,
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "eY" = (
 /obj/structure/table,
 /obj/item/crowbar,
@@ -1707,7 +1707,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "jP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/event_spawn,
@@ -2937,7 +2937,7 @@
 /obj/structure/table/wood,
 /obj/machinery/light/small,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "ru" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/asteroid/corner,
@@ -2986,7 +2986,7 @@
 /obj/machinery/power/apc/auto_name/north,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "rJ" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -4891,7 +4891,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "Dp" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -6553,7 +6553,7 @@
 "Nb" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/executive,
-/area/blueshieldoffice)
+/area/blueshield)
 "Ng" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced,
@@ -7394,7 +7394,7 @@
 "RU" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "RW" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
@@ -8030,7 +8030,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/plasteel,
-/area/blueshieldoffice)
+/area/blueshield)
 "Wr" = (
 /obj/effect/turf_decal/stripes/asteroid/line,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
