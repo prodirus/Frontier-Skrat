@@ -2,35 +2,10 @@
 	. = ..()
 	if(href_list["lookup_info"])
 		switch(href_list["lookup_info"])
-			if("genitals")
-				var/list/line = list()
-				for(var/genital in list("penis", "testicles", "vagina", "breasts"))
-					if(!dna.species.mutant_bodyparts[genital])
-						continue
-					var/datum/sprite_accessory/genital/G = GLOB.sprite_accessories[genital][dna.species.mutant_bodyparts[genital][MUTANT_INDEX_NAME]]
-					if(!G)
-						continue
-					if(G.is_hidden(src))
-						continue
-					var/obj/item/organ/genital/ORG = getorganslot(G.associated_organ_slot)
-					if(!ORG)
-						continue
-					line += ORG.get_description_string(G)
-				if(length(line))
-					to_chat(usr, "<span class='notice'>[jointext(line, "\n")]</span>")
 			if("flavor_text")
 				if(length(dna.features["flavor_text"]))
 					var/datum/browser/popup = new(usr, "[name]'s flavor text", "[name]'s Flavor Text", 500, 200)
 					popup.set_content(text("<HTML><HEAD><TITLE>[]</TITLE></HEAD><BODY><TT>[]</TT></BODY></HTML>", "[name]'s flavor text", replacetext(dna.features["flavor_text"], "\n", "<BR>")))
-					popup.open()
-					return
-
-			if("ooc_prefs")
-				if(client)
-					var/str = "[src]'s OOC Notes : <br> <b>ERP :</b> [client.prefs.erp_pref] <b>| Non-Con :</b> [client.prefs.noncon_pref] <b>| Vore :</b> [client.prefs.vore_pref]"
-					str += "<br>[html_encode(client.prefs.ooc_prefs)]"
-					var/datum/browser/popup = new(usr, "[name]'s ooc info", "[name]'s OOC Information", 500, 200)
-					popup.set_content(text("<HTML><HEAD><TITLE>[]</TITLE></HEAD><BODY><TT>[]</TT></BODY></HTML>", "[name]'s OOC information", replacetext(str, "\n", "<BR>")))
 					popup.open()
 					return
 
@@ -96,7 +71,7 @@
 /mob/living/carbon/human/verb/toggle_undies()
 	set category = "IC"
 	set name = "Toggle underwear visibility"
-	set desc = "Allows you to toggle which underwear should show or be hidden. Underwear will obscure genitals."
+	set desc = "Allows you to toggle which underwear should show or be hidden."
 
 	if(stat != CONSCIOUS)
 		to_chat(usr, "<span class='warning'>You can't toggle underwear visibility right now...</span>")
@@ -126,4 +101,4 @@
 /mob/living/carbon/human/revive(full_heal = 0, admin_revive = 0)
 	if(..())
 		if(dna && dna.species)
-			dna.species.spec_revival(src) 
+			dna.species.spec_revival(src)

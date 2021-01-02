@@ -17,12 +17,6 @@
 	if(extra_overlay)
 		add_overlay(extra_overlay)
 
-
-	//if(sleeper_g && module.sleeper_overlay)
-	//	add_overlay("[module.sleeper_overlay]_g[sleeper_nv ? "_nv" : ""]")
-	//if(sleeper_r && module.sleeper_overlay)
-	//	add_overlay("[module.sleeper_overlay]_r[sleeper_nv ? "_nv" : ""]")
-
 	if(stat == DEAD && module.has_snowflake_deadsprite)
 		icon_state = "[module.cyborg_base_icon]-wreck"
 

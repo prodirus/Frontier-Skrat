@@ -1,6 +1,5 @@
 /obj/item/robot_module
 	var/icon/cyborg_icon_override
-	var/sleeper_overlay
 	var/has_snowflake_deadsprite
 	var/cyborg_pixel_offset
 	var/moduleselect_alternate_icon
@@ -15,20 +14,6 @@
 	var/mob/living/silicon/robot/cyborg = loc
 	add_verb(cyborg , /mob/living/silicon/robot/proc/robot_lay_down)
 	add_verb(cyborg , /mob/living/silicon/robot/proc/rest_style)
-/* - TODO ADD SLEEPERS
-	var/obj/item/dogborg/sleeper/K9/flavour/I = new(src)
-	if(istype(src, /obj/item/robot_module/engineering))
-		I.icon_state = "decompiler"
-	if(istype(src, /obj/item/robot_module/security))
-		I.icon_state = "sleeperb"
-	if(istype(src, /obj/item/robot_module/medical))
-		I.icon_state = "sleeper"
-	if(istype(src, /obj/item/robot_module/butler))
-		I.icon_state = "servicer"
-		if(cyborg_base_icon == "scrubpup")
-			I.icon_state = "compactor"
-	basic_modules += I
-*/
 	rebuild_modules()
 
 //ROBOT ADDITIONAL MODULES
@@ -88,7 +73,6 @@
 		//Dogborgs
 		if("Fabulous")
 			cyborg_base_icon = "k69"
-			sleeper_overlay = "k9sleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		else
@@ -163,21 +147,18 @@
 		if("Medihound")
 			cyborg_base_icon = "medihound"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "msleeper"
 			moduleselect_icon = "medihound"
 			moduleselect_alternate_icon = 'modular_skyrat/modules/altborgs/icons/ui/screen_cyborg.dmi'
 			dogborg = TRUE
 		if("Medihound Dark")
 			cyborg_base_icon = "medihounddark"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "mdsleeper"
 			moduleselect_icon = "medihound"
 			moduleselect_alternate_icon = 'modular_skyrat/modules/altborgs/icons/ui/screen_cyborg.dmi'
 			dogborg = TRUE
 		if("Vale")
 			cyborg_base_icon = "valemed"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "valemedsleeper"
 			moduleselect_icon = "medihound"
 			moduleselect_alternate_icon = 'modular_skyrat/modules/altborgs/icons/ui/screen_cyborg.dmi'
 			dogborg = TRUE
@@ -185,14 +166,12 @@
 			cyborg_base_icon = "alina-med"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			special_light_key = "alina"
-			sleeper_overlay = "alinasleeper"
 			moduleselect_icon = "medihound"
 			moduleselect_alternate_icon = 'modular_skyrat/modules/altborgs/icons/ui/screen_cyborg.dmi'
 			dogborg = TRUE
 		if("Drake")
 			cyborg_base_icon = "drakemed"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "drakemedsleeper"
 			moduleselect_icon = "medihound"
 			moduleselect_alternate_icon = 'modular_skyrat/modules/altborgs/icons/ui/screen_cyborg.dmi'
 			dogborg = TRUE
@@ -277,33 +256,27 @@
 		if("Pup Dozer")
 			cyborg_base_icon = "pupdozer"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "dozersleeper"
 			dogborg = TRUE
 		if("Vale")
 			cyborg_base_icon = "valeeng"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "valeengsleeper"
 			dogborg = TRUE
 		if("Hound")
 			cyborg_base_icon = "engihound"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "engihoundsleeper"
 			dogborg = TRUE
 		if("Darkhound")
 			cyborg_base_icon = "engihounddark"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "engihounddarksleeper"
 			dogborg = TRUE
 		if("Alina")
 			cyborg_base_icon = "alina-eng"
 			special_light_key = "alina"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "alinasleeper"
 			dogborg = TRUE
 		if("Drake")
 			cyborg_base_icon = "drakeeng"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "drakesecsleeper"
 			dogborg = TRUE
 		else
 			return FALSE
@@ -375,33 +348,27 @@
 		//Dogborgs
 		if("K9")
 			cyborg_base_icon = "k9"
-			sleeper_overlay = "ksleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		if("Otie")
 			cyborg_base_icon = "oties"
-			sleeper_overlay = "otiessleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		if("Alina")
 			cyborg_base_icon = "alina-sec"
 			special_light_key = "alina"
-			sleeper_overlay = "alinasleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		if("K9 Dark")
 			cyborg_base_icon = "k9dark"
-			sleeper_overlay = "k9darksleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		if("Vale")
 			cyborg_base_icon = "valesec"
-			sleeper_overlay = "valesecsleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		if("Drake")
 			cyborg_base_icon = "drakesec"
-			sleeper_overlay = "drakesecsleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		else
@@ -463,7 +430,6 @@
 		//Dogborgs
 		if("Drake")
 			cyborg_base_icon = "drakepeace"
-			sleeper_overlay = "drakepeacesleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		else
@@ -529,17 +495,14 @@
 		if("Scrubpuppy")
 			cyborg_base_icon = "scrubpup"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "jsleeper"
 			dogborg = TRUE
 		if("Otie")
 			cyborg_base_icon = "otiej"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "otiejsleeper"
 			dogborg = TRUE
 		if("Drake")
 			cyborg_base_icon = "drakejanit"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "drakesecsleeper"
 			dogborg = TRUE
 		else
 			return FALSE
@@ -654,21 +617,17 @@
 		if("DarkK9")
 			cyborg_base_icon = "k50"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "ksleeper"
 			dogborg = TRUE
 		if("Vale")
 			cyborg_base_icon = "valeserv"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "valeservsleeper"
 			dogborg = TRUE
 		if("ValeDark")
 			cyborg_base_icon = "valeservdark"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "valeservsleeper"
 			dogborg = TRUE
 		if("Fabulous")
 			cyborg_base_icon = "k69"
-			sleeper_overlay = "k9sleeper"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
 			dogborg = TRUE
 		else
@@ -751,17 +710,14 @@
 		if("Blade")
 			cyborg_base_icon = "blade"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "bladesleeper"
 			dogborg = TRUE
 		if("Vale")
 			cyborg_base_icon = "valemine"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "valeminesleeper"
 			dogborg = TRUE
 		if("Drake")
 			cyborg_base_icon = "drakemine"
 			cyborg_icon_override = 'modular_skyrat/modules/altborgs/icons/mob/widerobot.dmi'
-			sleeper_overlay = "drakeminesleeper"
 			dogborg = TRUE
 		else
 			return FALSE

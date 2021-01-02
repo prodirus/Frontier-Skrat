@@ -1,7 +1,6 @@
 /datum/species
 	mutant_bodyparts = list()
 	///Self explanatory
-	var/can_have_genitals = TRUE
 	///Override of icon file of which we're taking the icons from for our limbs
 	var/limbs_icon
 	///A list of actual body markings on the owner of the species. Associative lists with keys named by limbs defines, pointing to a list with names and colors for the marking to be rendered. This is also stored in the DNA
@@ -238,12 +237,6 @@
 
 /datum/species/New()
 	. = ..()
-	if(can_have_genitals)
-		default_mutant_bodyparts["vagina"] = "None"
-		default_mutant_bodyparts["womb"] = "None"
-		default_mutant_bodyparts["testicles"] = "None"
-		default_mutant_bodyparts["breasts"] = "None"
-		default_mutant_bodyparts["penis"] = "None"
 
 /datum/species/dullahan
 	mutant_bodyparts = list()
@@ -268,12 +261,10 @@
 
 /datum/species/plasmaman
 	mutant_bodyparts = list()
-	can_have_genitals = FALSE
 	can_augment = FALSE
 
 /datum/species/ethereal
 	mutant_bodyparts = list()
-	can_have_genitals = FALSE
 	can_augment = FALSE
 
 /datum/species/proc/get_random_features()
