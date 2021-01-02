@@ -48,4 +48,9 @@
 #_maps/RandomRuins/SpaceRuins/whiteshipdock.dmm
 #_maps/RandomRuins/SpaceRuins/whiteshipruin_box.dmm
 #_maps/RandomRuins/SpaceRuins/forgottenship.dmm
-
+#modular_frontier/modules/mapping/_maps/RandomRuins/SpaceRuins/dorms4.dmm
+#modular_frontier/modules/mapping/_maps/RandomRuins/SpaceRuins/ruinedpubbymonastery.dmm
+#modular_frontier/modules/mapping/_maps/RandomRuins/SpaceRuins/TheDerelict2.dmm
+#modular_frontier/modules/mapping/_maps/RandomRuins/SpaceRuins/wreckedfriendship.dmm
+#modular_frontier/modules/mapping/_maps/RandomRuins/SpaceRuins/wreckedhomestead.dmm
+#modular_frontier/modules/mapping/_maps/RandomRuins/SpaceRuins/wreckedsyndieship.dmm

@@ -3346,6 +3346,7 @@
 #include "modular_frontier\modules\card\card.dm"
 #include "modular_frontier\modules\GhostCafe\code\game\objects\structures\ghost_role_spawners.dm"
 #include "modular_frontier\modules\implants\code\organs\augments_arms.dm"
+#include "modular_frontier\modules\mapping\code\datums\ruins\space.dm"
 #include "modular_frontier\modules\miningbase\code\game\area\Space_Station_13_areas.dm"
 #include "modular_frontier\modules\miningbase\code\game\objects\effects\landmarks.dm"
 #include "modular_frontier\modules\miningbase\code\game\objects\items\devices\PDA\PDA_types.dm"
