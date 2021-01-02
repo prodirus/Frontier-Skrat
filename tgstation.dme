@@ -3764,5 +3764,4 @@
 #include "modular_skyrat\modules\verbs\code\modules\client\preferences_toggles.dm"
 #include "modular_skyrat\modules\verbs\code\modules\client\verbs\looc.dm"
 #include "modular_skyrat\modules\verbs\code\modules\mob\say.dm"
-#include "modular_skyrat\modules\verbs\code\modules\mob\subtle.dm"
 // END_INCLUDE
