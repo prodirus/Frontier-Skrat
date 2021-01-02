@@ -235,6 +235,12 @@
 	admin_notes = "Due to the limited space for non paying crew, this shuttle may cause a riot."
 	credit_cost = CARGO_CRATE_VALUE * 20
 
+/datum/map_template/shuttle/emergency/outpost
+	suffix = "outpost"
+	name = "Outpost Station Shuttle"
+	description = "A big shuttle for big monsters. Barely retrofitted for modern docking standards."
+	credit_cost = 10000
+
 /datum/map_template/shuttle/emergency/discoinferno
 	suffix = "discoinferno"
 	name = "Disco Inferno"
@@ -459,6 +465,10 @@
 	suffix = "box"
 	name = "Hospital Ship"
 
+/datum/map_template/shuttle/whiteship/outpost
+	suffix = "outpost"
+	name = "Lyons' Pride"
+
 /datum/map_template/shuttle/whiteship/meta
 	suffix = "meta"
 	name = "Salvage Ship"
@@ -503,6 +513,10 @@
 	suffix = "pubby"
 	name = "supply shuttle (Pubby)"
 
+/datum/map_template/shuttle/cargo/min
+	suffix = "min"
+	name = "supply shuttle (Min)"
+
 /datum/map_template/shuttle/emergency/delta
 	suffix = "delta"
 	name = "Delta Station Emergency Shuttle"
@@ -533,6 +547,14 @@
 /datum/map_template/shuttle/arrival/box
 	suffix = "box"
 	name = "arrival shuttle (Box)"
+
+/datum/map_template/shuttle/arrival/min
+	suffix = "min"
+	name = "arrival shuttle (Min)"
+
+/datum/map_template/shuttle/arrival/outpost
+	suffix = "outpost"
+	name = "arrival shuttle (Outpost)"
 
 /datum/map_template/shuttle/cargo/box
 	suffix = "box"
@@ -665,3 +687,9 @@
 /datum/map_template/shuttle/snowdin/excavation
 	suffix = "excavation"
 	name = "Snowdin Excavation Elevator"
+
+/datum/map_template/shuttle/shipstation
+	port_id = "station"
+	can_be_bought = FALSE
+	suffix = "ship"
+	name = "NTSS 'Companionship'"

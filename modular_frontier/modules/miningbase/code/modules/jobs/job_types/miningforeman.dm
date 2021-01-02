@@ -4,7 +4,7 @@
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the Quartermaster and Head of Personnel"
+	supervisors = "the Quartermaster"
 	selection_color = "#dcba97"
 
 	outfit = /datum/outfit/job/foreman
