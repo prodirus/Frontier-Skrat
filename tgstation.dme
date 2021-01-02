@@ -3341,6 +3341,8 @@
 #include "modular_frontier\modules\aesthetics\syringe\syringe.dm"
 #include "modular_frontier\modules\aesthetics\telescience\telescience.dm"
 #include "modular_frontier\modules\aesthetics\tools\tools.dm"
+#include "modular_frontier\modules\card\access.dm"
+#include "modular_frontier\modules\card\card.dm"
 #include "modular_frontier\modules\GhostCafe\code\game\objects\structures\ghost_role_spawners.dm"
 #include "modular_frontier\modules\implants\code\organs\augments_arms.dm"
 #include "modular_frontier\modules\miningbase\code\game\area\Space_Station_13_areas.dm"
