@@ -330,10 +330,6 @@
 /obj/structure/chair/wood,
 /turf/open/floor/plasteel/chapel,
 /area/ruin/powered)
-"lI" = (
-/obj/structure/altar_of_gods,
-/turf/open/floor/carpet,
-/area/ruin/powered)
 "ma" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/carpet,
@@ -3616,7 +3612,7 @@ wT
 wT
 wT
 wT
-lI
+pm
 wT
 uy
 qE

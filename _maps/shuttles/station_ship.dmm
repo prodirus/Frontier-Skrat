@@ -150,6 +150,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "aL" = (
@@ -288,6 +289,9 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 9
 	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "bH" = (
@@ -352,22 +356,28 @@
 "bZ" = (
 /obj/effect/turf_decal/trimline/blue/filled/corner,
 /obj/effect/landmark/start/chemist,
+/obj/structure/chair/office/light{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "cb" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
 	},
 /obj/machinery/light,
 /obj/machinery/vending/drugs,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "cc" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
+	},
+/obj/structure/window/reinforced{
+	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
@@ -766,6 +776,9 @@
 /obj/effect/turf_decal/trimline/green/filled/line{
 	dir = 6
 	},
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "dS" = (
@@ -852,6 +865,7 @@
 	pixel_x = -3;
 	pixel_y = 5
 	},
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "ed" = (
@@ -940,6 +954,7 @@
 /area/shuttle/shipstation)
 "ew" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
+/obj/structure/disposalpipe/segment,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/shipstation)
 "eK" = (
@@ -1161,6 +1176,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 1
 	},
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "hm" = (
@@ -1334,6 +1350,16 @@
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
+"iq" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/trimline/white/filled/line{
+	dir = 10
+	},
+/obj/machinery/camera/autoname{
+	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
@@ -2092,6 +2118,31 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2,
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/shipstation)
+"rx" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "garbage"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
+"rK" = (
+/obj/effect/turf_decal/trimline/brown/filled/line,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
 "rR" = (
 /obj/machinery/suit_storage_unit/ce,
 /obj/effect/turf_decal/tile/yellow{
@@ -2208,11 +2259,6 @@
 /area/shuttle/shipstation)
 "te" = (
 /obj/structure/fans/tiny,
-/obj/machinery/mineral/ore_redemption{
-	dir = 1;
-	input_dir = 0;
-	output_dir = 1
-	},
 /obj/machinery/door/firedoor,
 /obj/structure/window/reinforced{
 	dir = 8
@@ -2230,6 +2276,10 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/brown,
+/obj/machinery/mineral/ore_redemption{
+	input_dir = 2;
+	output_dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "th" = (
@@ -2336,6 +2386,7 @@
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer{
 	dir = 8
 	},
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "uC" = (
@@ -2451,11 +2502,21 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/machinery/door/window{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "wt" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
+"wx" = (
+/obj/effect/turf_decal/trimline/green/filled/line,
+/obj/structure/disposalpipe/junction/flip{
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
@@ -2977,6 +3038,10 @@
 /obj/item/multitool,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
+"Cr" = (
+/obj/machinery/holopad,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
 "Cu" = (
 /obj/structure/window/reinforced{
 	dir = 4
@@ -3001,6 +3066,9 @@
 	},
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 10
+	},
+/obj/machinery/camera/autoname{
+	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
@@ -3224,6 +3292,20 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
+"El" = (
+/obj/effect/turf_decal/trimline/blue/filled/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
 "En" = (
 /obj/machinery/door/window/brigdoor/security/cell{
 	dir = 8;
@@ -3271,6 +3353,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 9
 	},
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "Ey" = (
@@ -3294,6 +3377,10 @@
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
 	},
+/obj/item/screwdriver{
+	pixel_x = 9
+	},
+/obj/item/wrench,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "EN" = (
@@ -3515,9 +3602,6 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "Hj" = (
-/obj/structure/window/reinforced{
-	dir = 4
-	},
 /obj/machinery/computer/pandemic,
 /obj/structure/reagent_dispensers/virusfood{
 	pixel_y = 31
@@ -3540,6 +3624,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "HI" = (
@@ -3589,6 +3674,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 5
 	},
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "Iu" = (
@@ -3609,7 +3697,6 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/obj/effect/landmark/start/prisoner,
 /turf/open/floor/mineral/plastitanium/red/brig,
 /area/shuttle/shipstation)
 "IR" = (
@@ -3748,6 +3835,14 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
+"JB" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/obj/effect/turf_decal/trimline/white/filled/line{
+	dir = 9
+	},
+/obj/machinery/camera/autoname,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
 "JJ" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
@@ -3854,6 +3949,9 @@
 	dir = 10
 	},
 /mob/living/carbon/human/species/monkey/angry,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "KQ" = (
@@ -4069,14 +4167,6 @@
 /obj/structure/disposaloutlet{
 	dir = 4
 	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/structure/window/reinforced,
-/obj/machinery/conveyor{
-	dir = 4;
-	id = "garbage"
-	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "MP" = (
@@ -4192,6 +4282,12 @@
 /obj/item/beacon,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
+"Po" = (
+/obj/effect/turf_decal/trimline/blue/filled/line,
+/obj/machinery/disposal/bin,
+/obj/structure/disposalpipe/trunk,
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
 "PB" = (
 /obj/effect/turf_decal/trimline/brown/filled/line{
 	dir = 1
@@ -4262,6 +4358,7 @@
 /obj/structure/closet/secure_closet/freezer/kitchen/maintenance{
 	name = "refrigerator"
 	},
+/obj/machinery/camera/autoname,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "Qt" = (
@@ -4492,7 +4589,6 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "Tz" = (
-/obj/machinery/door/window/eastleft,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 4
 	},
@@ -4538,7 +4634,7 @@
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 6
 	},
-/obj/machinery/disposal/bin,
+/obj/structure/table,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "TS" = (
@@ -4591,6 +4687,22 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
+"UL" = (
+/obj/effect/turf_decal/trimline/brown/filled/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/shipstation)
 "UO" = (
 /obj/machinery/vending/boozeomat,
 /obj/effect/turf_decal/trimline/green/filled/line{
@@ -4599,6 +4711,7 @@
 /obj/structure/sign/plaques/deempisi{
 	pixel_y = 24
 	},
+/obj/machinery/camera/autoname,
 /turf/open/floor/carpet/black,
 /area/shuttle/shipstation)
 "UU" = (
@@ -4608,6 +4721,9 @@
 	dir = 4
 	},
 /obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "UY" = (
@@ -4731,6 +4847,7 @@
 "VP" = (
 /obj/machinery/spaceship_navigation_beacon,
 /obj/structure/window/reinforced,
+/obj/machinery/camera/autoname,
 /turf/open/floor/mineral/plastitanium,
 /area/shuttle/shipstation)
 "Wc" = (
@@ -4822,6 +4939,9 @@
 	},
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
+	},
+/obj/machinery/camera/autoname{
+	dir = 1
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/shipstation)
@@ -5280,7 +5400,7 @@ ei
 ZH
 bm
 Jl
-TS
+iq
 ZH
 HE
 rl
@@ -5292,7 +5412,7 @@ Dv
 mW
 Ij
 ZH
-bm
+JB
 Jl
 TS
 ZH
@@ -5379,10 +5499,10 @@ Hc
 sW
 Nq
 CZ
-Nv
+Po
 ew
-YL
-Xk
+El
+wx
 Lk
 dh
 Vi
@@ -5393,7 +5513,7 @@ ei
 (17,1,1) = {"
 ei
 ZH
-tj
+rx
 tt
 ba
 ZH
@@ -5476,7 +5596,7 @@ RP
 YL
 sR
 CV
-CV
+Cr
 CV
 dQ
 ed
@@ -5720,13 +5840,13 @@ ZH
 ZH
 ZH
 wd
-bo
+rK
 Zg
 Lv
 gL
 pL
 LF
-fP
+UL
 wd
 ZH
 qB
