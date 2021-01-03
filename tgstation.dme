@@ -3325,6 +3325,7 @@
 #include "modular_frontier\modules\aesthetics\chemical_tanks\chemical_tanks.dm"
 #include "modular_frontier\modules\aesthetics\closet\closet.dm"
 #include "modular_frontier\modules\aesthetics\device\device.dm"
+#include "modular_frontier\modules\aesthetics\heavy_lathe\heavy_lathe.dm"
 #include "modular_frontier\modules\aesthetics\items_and_weapons\items_and_weapons.dm"
 #include "modular_frontier\modules\aesthetics\items_cyborg\items_cyborg.dm"
 #include "modular_frontier\modules\aesthetics\janitor\janitor.dm"

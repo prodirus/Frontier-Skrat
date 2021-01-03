@@ -18,3 +18,6 @@
 
 /obj/machinery/grill
 	icon = 'modular_frontier/modules/aesthetics/kitchen/kitchen.dmi'
+
+/obj/machinery/gibber
+	icon = 'modular_frontier/modules/aesthetics/kitchen/kitchen.dmi'
