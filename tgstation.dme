@@ -3327,6 +3327,8 @@
 #include "modular_frontier\modules\aesthetics\device\device.dm"
 #include "modular_frontier\modules\aesthetics\items_and_weapons\items_and_weapons.dm"
 #include "modular_frontier\modules\aesthetics\items_cyborg\items_cyborg.dm"
+#include "modular_frontier\modules\aesthetics\janitor\janitor.dm"
+#include "modular_frontier\modules\aesthetics\kitchen\kitchen.dm"
 #include "modular_frontier\modules\aesthetics\mining\mining.dm"
 #include "modular_frontier\modules\aesthetics\pda\pda.dm"
 #include "modular_frontier\modules\aesthetics\power\power.dm"

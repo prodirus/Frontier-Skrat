@@ -1866,7 +1866,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/blueshieldoffice)
+/area/blueshield)
 "hF" = (
 /obj/machinery/air_sensor/atmos/mix_tank,
 /turf/open/floor/engine/vacuum,
@@ -2532,7 +2532,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/virology)
 "kK" = (
@@ -2904,7 +2904,7 @@
 	req_access_txt = "14"
 	},
 /turf/open/floor/plasteel/dark,
-/area/blueshieldoffice)
+/area/blueshield)
 "mu" = (
 /obj/effect/landmark/start/paramedic,
 /turf/open/floor/plasteel/white,
@@ -2972,7 +2972,7 @@
 	layer = 2.9
 	},
 /obj/effect/turf_decal/stripes/end,
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/dark,
 /area/science/genetics)
 "mO" = (
@@ -3961,7 +3961,7 @@
 /obj/effect/turf_decal/stripes/end{
 	dir = 4
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/dark,
 /area/science/genetics)
 "ro" = (
@@ -5915,7 +5915,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/virology)
 "zH" = (
@@ -6006,7 +6006,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 6
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/virology)
 "zT" = (
@@ -6260,7 +6260,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 4
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/virology)
 "AZ" = (
@@ -6354,7 +6354,7 @@
 "Bw" = (
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/dark,
-/area/blueshieldoffice)
+/area/blueshield)
 "Bx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
@@ -6658,7 +6658,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/dark,
 /area/science/genetics)
 "CI" = (
@@ -6881,7 +6881,7 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 8
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel,
 /area/medical/virology)
 "DS" = (
@@ -7113,7 +7113,7 @@
 /area/engine/atmos)
 "EG" = (
 /turf/closed/wall,
-/area/blueshieldoffice)
+/area/blueshield)
 "EH" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/engine/o2,
@@ -7214,7 +7214,7 @@
 /area/medical/sleeper)
 "Fb" = (
 /turf/open/floor/plasteel/dark,
-/area/blueshieldoffice)
+/area/blueshield)
 "Fd" = (
 /obj/structure/chair/office{
 	dir = 4
@@ -8938,7 +8938,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
-/area/blueshieldoffice)
+/area/blueshield)
 "Mm" = (
 /obj/machinery/conveyor{
 	dir = 4;
@@ -10423,7 +10423,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/dark,
-/area/blueshieldoffice)
+/area/blueshield)
 "Tb" = (
 /obj/structure/table,
 /obj/machinery/light{
@@ -10593,7 +10593,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/mob/living/carbon/monkey,
+/mob/living/carbon/human/species/monkey,
 /turf/open/floor/plasteel/dark,
 /area/science/genetics)
 "TQ" = (
@@ -10654,7 +10654,7 @@
 /obj/structure/table/wood,
 /obj/item/pinpointer/crew,
 /turf/open/floor/plasteel/dark,
-/area/blueshieldoffice)
+/area/blueshield)
 "Ub" = (
 /obj/structure/closet/secure_closet/freezer/cream_pie,
 /turf/open/floor/wood,
@@ -10914,7 +10914,7 @@
 /turf/open/floor/plasteel/cafeteria,
 /area/crew_quarters/kitchen)
 "UR" = (
-/mob/living/carbon/monkey/punpun,
+/mob/living/carbon/human/species/monkey/punpun,
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
 /area/crew_quarters/bar/atrium)

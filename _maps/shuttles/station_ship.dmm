@@ -4,20 +4,13 @@
 /turf/closed/wall/mineral/titanium/nodiagonal,
 /area/shuttle/shipstation)
 "af" = (
-/obj/machinery/computer/pod/old/mass_driver_controller/trash{
-	pixel_x = 24;
-	pixel_y = 8
-	},
-/obj/machinery/button/door{
-	id = "Disposal Exit";
-	name = "Disposal Vent Control";
-	pixel_x = 24;
-	pixel_y = -6;
-	req_access_txt = "12"
-	},
 /obj/machinery/door/window{
 	dir = 1;
 	req_access_txt = "41"
+	},
+/obj/machinery/button/door{
+	id = "shiposals";
+	pixel_x = 32
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
@@ -63,8 +56,14 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "au" = (
-/obj/machinery/door/poddoor/massdriver_trash,
 /obj/structure/fans/tiny,
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "garbage"
+	},
+/obj/machinery/door/poddoor{
+	id = "shiposals"
+	},
 /turf/open/floor/plating,
 /area/shuttle/shipstation)
 "av" = (
@@ -1225,7 +1224,10 @@
 	dir = 1;
 	layer = 2.9
 	},
-/obj/machinery/deepfryer,
+/obj/machinery/deepfryer{
+	pixel_x = 2;
+	pixel_y = -2
+	},
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
@@ -1662,7 +1664,10 @@
 /obj/effect/turf_decal/trimline/green/filled/line,
 /obj/structure/table,
 /obj/effect/spawner/lootdrop/donkpockets,
-/obj/machinery/microwave,
+/obj/machinery/microwave{
+	pixel_x = -3;
+	pixel_y = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "nz" = (
@@ -2185,8 +2190,9 @@
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
 "sO" = (
-/obj/machinery/mass_driver/trash{
-	dir = 1
+/obj/machinery/conveyor{
+	dir = 1;
+	id = "garbage"
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
