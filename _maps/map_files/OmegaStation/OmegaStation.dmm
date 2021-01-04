@@ -10193,7 +10193,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard)
 "aAL" = (
-/obj/structure/filingcabinet/filingcabinet,
 /obj/machinery/airalarm{
 	dir = 4;
 	pixel_x = -22
@@ -10207,6 +10206,7 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+/obj/machinery/rnd/bepis,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aAM" = (
@@ -11735,6 +11735,7 @@
 /obj/effect/turf_decal/tile/brown{
 	dir = 8
 	},
+/obj/structure/filingcabinet/filingcabinet,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
 "aEU" = (
@@ -26397,6 +26398,7 @@
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
 "edf" = (
+/obj/effect/landmark/start/ai/secondary,
 /turf/open/floor/circuit/telecomms/mainframe,
 /area/tcommsat/server)
 "eea" = (
@@ -29534,10 +29536,6 @@
 	pixel_y = 32
 	},
 /turf/open/floor/engine/vacuum,
-/area/science/mixing)
-"jtG" = (
-/obj/machinery/pipedispenser,
-/turf/open/floor/plasteel/white,
 /area/science/mixing)
 "jtK" = (
 /obj/structure/filingcabinet,
@@ -33405,6 +33403,7 @@
 	pixel_y = 9
 	},
 /obj/structure/table/reinforced,
+/obj/item/pipe_dispenser,
 /turf/open/floor/plasteel/white,
 /area/science/mixing)
 "pBI" = (
@@ -40138,6 +40137,7 @@
 /turf/open/floor/plasteel,
 /area/security/prison)
 "vXP" = (
+/obj/effect/landmark/start/ai/secondary,
 /turf/open/floor/circuit/green/telecomms,
 /area/tcommsat/server)
 "vYr" = (
@@ -41624,9 +41624,6 @@
 	},
 /turf/open/floor/plasteel/grimy,
 /area/chapel/main)
-"ybo" = (
-/turf/closed/wall,
-/area/crew_quarters/heads/hos)
 "ycw" = (
 /obj/machinery/holopad,
 /turf/open/floor/plasteel/grimy,
@@ -68317,10 +68314,10 @@ djh
 bFq
 sLU
 niE
-ybo
-ybo
-ybo
-ybo
+niE
+niE
+niE
+niE
 xrf
 xrf
 xrf
@@ -85846,7 +85843,7 @@ tif
 bOJ
 fla
 bLJ
-jtG
+waU
 ffl
 ivt
 giG
