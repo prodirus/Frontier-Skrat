@@ -3353,11 +3353,11 @@
 /area/crew_quarters/heads/hos)
 "oV" = (
 /obj/structure/cable,
+/obj/effect/turf_decal/siding/wood,
 /obj/machinery/door/airlock/command{
 	name = "Blueshield's Office";
-	req_access_txt = "14"
+	req_access_txt = "73"
 	},
-/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/blueshield)
 "oX" = (

@@ -4362,7 +4362,7 @@
 /obj/structure/cable,
 /obj/machinery/door/airlock/command{
 	name = "Blueshield's Office";
-	req_access_txt = "14"
+	req_access_txt = "73"
 	},
 /turf/open/floor/wood,
 /area/blueshield)

@@ -17012,7 +17012,7 @@
 	},
 /obj/machinery/door/airlock/maintenance_hatch{
 	name = "Maintenance Hatch";
-	req_access_txt = "12;14"
+	req_access_txt = "12;73"
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -39979,11 +39979,11 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable,
 /obj/machinery/door/airlock/command{
 	name = "Blueshield's Office";
-	req_access_txt = "14"
+	req_access_txt = "73"
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel,
 /area/blueshield)
 "vLk" = (

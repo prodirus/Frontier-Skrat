@@ -11790,11 +11790,11 @@
 "aBc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/cable,
 /obj/machinery/door/airlock/command{
 	name = "Blueshield's Office";
-	req_access_txt = "14"
+	req_access_txt = "73"
 	},
-/obj/structure/cable,
 /turf/open/floor/plasteel/dark,
 /area/blueshield)
 "aBd" = (
