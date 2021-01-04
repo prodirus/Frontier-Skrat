@@ -2017,8 +2017,8 @@
 	dir = 1
 	},
 /obj/machinery/door/airlock/medical/glass{
-	name = "Cloning Lab";
-	req_access_txt = "68"
+	name = "Genetics";
+	req_one_access_txt = "5;9"
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)
@@ -2844,15 +2844,15 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 8
 	},
-/obj/machinery/door/airlock/medical/glass{
-	name = "Cloning Lab";
-	req_access_txt = "68;47"
-	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
+	},
+/obj/machinery/door/airlock/research{
+	name = "Genetics Lab";
+	req_access_txt = "9;47"
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/shipstation)

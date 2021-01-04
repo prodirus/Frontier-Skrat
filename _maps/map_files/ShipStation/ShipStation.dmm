@@ -473,6 +473,11 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
+"cb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/sofa/bench/left,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "cc" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
@@ -1290,6 +1295,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/science/mixing)
+"gM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "gT" = (
 /obj/effect/turf_decal/plaque{
 	icon = 'icons/effects/crayondecal.dmi';
@@ -5336,7 +5346,7 @@
 	width = 7
 	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/space)
 "An" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 4
@@ -5783,6 +5793,14 @@
 	},
 /turf/open/floor/plating,
 /area/security/brig)
+"CJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/tank_dispenser,
+/turf/open/floor/plasteel,
+/area/engine/engineering)
 "CK" = (
 /obj/effect/landmark/event_spawn,
 /obj/effect/turf_decal/tile/neutral{
@@ -6016,6 +6034,11 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
+"DV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/sofa/bench/right,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "DY" = (
 /obj/structure/cable,
 /obj/machinery/power/smes,
@@ -7784,6 +7807,7 @@
 /area/engine/atmos)
 "Mp" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light,
 /obj/machinery/rnd/bepis,
 /turf/open/floor/plasteel,
 /area/quartermaster/storage)
@@ -8012,6 +8036,11 @@
 	},
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
+"NB" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/kirbyplants/random,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "NC" = (
 /obj/machinery/light/small,
 /obj/effect/turf_decal/tile/neutral{
@@ -8196,6 +8225,11 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/science/xenobiology)
+"Op" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "Ot" = (
 /obj/machinery/requests_console{
 	department = "Construction";
@@ -9374,6 +9408,11 @@
 	icon_state = "floorscorched1"
 	},
 /area/science/mixing)
+"TZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table,
+/turf/open/floor/plasteel,
+/area/hallway/secondary/entry)
 "Ua" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/bot{
@@ -28647,9 +28686,9 @@ Xr
 hd
 vs
 dn
-fE
-fE
-fE
+TZ
+Op
+gM
 il
 lA
 nv
@@ -28904,7 +28943,7 @@ Xr
 jN
 jN
 dw
-fE
+TZ
 fE
 fQ
 ix
@@ -31472,9 +31511,9 @@ Xr
 Xr
 gp
 Xr
-BJ
+Mp
 dn
-fE
+DV
 fE
 fE
 dw
@@ -31731,7 +31770,7 @@ Xr
 Xr
 Xr
 dn
-fE
+cb
 fE
 fE
 fE
@@ -31988,7 +32027,7 @@ Xr
 Xr
 Xr
 dw
-fE
+NB
 fE
 hF
 fE
@@ -33014,7 +33053,7 @@ Xr
 Xr
 Xr
 Xr
-Mp
+Xr
 Gx
 PI
 ac
@@ -35106,7 +35145,7 @@ bJ
 WV
 MS
 JT
-yQ
+CJ
 qB
 yQ
 yQ
