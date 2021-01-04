@@ -873,7 +873,7 @@
 	id = "stationship_windows"
 	},
 /obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/shuttle/shipstation)
 "ee" = (
 /obj/effect/turf_decal/trimline/purple/filled/line{
@@ -2753,7 +2753,7 @@
 /area/shuttle/shipstation)
 "yO" = (
 /obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/shuttle/shipstation)
 "yV" = (
 /obj/structure/window/reinforced{
@@ -4106,7 +4106,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 4
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/shuttle/shipstation)
 "LS" = (
 /obj/effect/landmark/start/medical_doctor,
@@ -4921,7 +4921,7 @@
 "Xu" = (
 /obj/effect/spawner/structure/window/shuttle,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/shuttle/shipstation)
 "Xv" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -4943,7 +4943,7 @@
 /obj/machinery/camera/autoname{
 	dir = 1
 	},
-/turf/open/floor/plating/airless,
+/turf/open/floor/plating,
 /area/shuttle/shipstation)
 "XH" = (
 /obj/machinery/telecomms/allinone{
