@@ -15,7 +15,8 @@
 	"Charlie Station Head Of Personnel", "Charlie Station Chief Engineer", "Charlie Station Research Director", "Charlie Station Chief Medical Officer", "Charlie Station Captain","CentCom Assistant","CentCom Botanist","CentCom Curator","CentCom Lawyer","CentCom Chaplain",
 	"CentCom Bartender","CentCom Cook","CentCom Janitor","CentCom Clown","CentCom Mime","CentCom Quartermaster","CentCom Cargo Technician","CentCom Shaft Miner","CentCom Atmospheric Technician","CentCom Station Engineer","CentCom Virologist","CentCom Chemist","CentCom Paramedic",
 	"CentCom Medical Doctor","CentCom Medical Doctor","CentCom Geneticist","CentCom Scientist","CentCom Roboticist","CentCom Warden","CentCom Detective","CentCom Security Officer","CentCom Prisoner","Admiral", "Protective Custody", "VIP Guest", "Custodian","Medical Officer",
-	"Research Officer","Special Ops Officer","Private Security Force","CentCom Commander","Service Guest","Guest Comedian","Private Trader","Independent Technician","Long Term Patient","Research Subject","Independent Researcher","Security Contractor", "DonkCo Diplomat")
+	"Research Officer","Special Ops Officer","Private Security Force","CentCom Commander","Service Guest","Guest Comedian","Private Trader","Independent Technician","Long Term Patient","Research Subject","Independent Researcher","Security Contractor", "DonkCo Diplomat",
+	"Cybersun Diplomat","Interdyne Chemist","Syndicate","Syndicate Prisoner","Nuclear Operative","Assault Operative","Lizard","Moth","Kobold","Cutie")
 
 /proc/get_all_centcom_jobs()
 	return list("Central Command","Thunderdome Overseer","CentCom Official")
