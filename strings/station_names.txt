@@ -1,6 +1,5 @@
-Station
-Exodus
-Dock
-Outpost
-Waypoint
-Hub
+Central
+Research
+NSS
+Space
+Nanotrasen
