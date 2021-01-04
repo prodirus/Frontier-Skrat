@@ -12,8 +12,8 @@
 	name = "Ruined Monastery"
 	description = "Once a place for the religious, now a home for the occasional space hermit or explorer."
 
-/datum/map_template/ruin/space/thederelict2
-	id = "thederelict2"
+/datum/map_template/ruin/space/TheDerelict2
+	id = "TheDerelict2"
 	prefix = "modular_frontier/modules/mapping/_maps/RandomRuins/SpaceRuins/"
 	suffix = "TheDerelict2.dmm"
 	name = "Space Station 12"
