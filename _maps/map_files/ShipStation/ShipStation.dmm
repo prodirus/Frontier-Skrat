@@ -49,6 +49,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "an" = (
@@ -912,6 +913,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "eg" = (
@@ -1322,6 +1324,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "gZ" = (
@@ -1496,6 +1499,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "hL" = (
@@ -1800,6 +1804,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "iW" = (
@@ -2133,6 +2138,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "kj" = (
@@ -2783,6 +2789,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "nx" = (
@@ -3107,6 +3114,9 @@
 	},
 /turf/open/floor/plating,
 /area/engine/atmos)
+"pj" = (
+/turf/closed/wall/r_wall/rust,
+/area/security/brig)
 "pl" = (
 /obj/effect/turf_decal/stripes/asteroid/line{
 	dir = 9
@@ -4705,6 +4715,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "wZ" = (
@@ -4716,6 +4727,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "xb" = (
@@ -4783,6 +4795,7 @@
 	dir = 8
 	},
 /obj/machinery/power/apc/auto_name/west,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "xt" = (
@@ -4855,6 +4868,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "xN" = (
@@ -4938,6 +4952,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "yj" = (
@@ -5362,6 +5377,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/construction/mining/aux_base)
 "AA" = (
@@ -5779,6 +5795,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "CN" = (
@@ -6545,6 +6562,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/maintenance/central)
+"GP" = (
+/turf/closed/wall/rust,
+/area/construction/mining/aux_base)
 "GQ" = (
 /turf/closed/wall/r_wall/rust,
 /area/library)
@@ -6703,6 +6723,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/hallway/secondary/exit/departure_lounge)
+"Hy" = (
+/obj/machinery/status_display/evac,
+/turf/closed/wall/rust,
+/area/construction/mining/aux_base)
 "Hz" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -6992,6 +7016,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"IM" = (
+/turf/closed/wall/r_wall/rust,
+/area/security/prison/safe)
 "IO" = (
 /obj/effect/spawner/structure/window/hollow/reinforced,
 /turf/open/floor/plating,
@@ -7411,6 +7438,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "KI" = (
@@ -7648,6 +7676,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/security/brig)
+"LG" = (
+/turf/closed/wall/rust,
+/area/security/prison)
 "LH" = (
 /obj/effect/spawner/randomarcade{
 	dir = 4
@@ -7806,6 +7837,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "MC" = (
@@ -8180,6 +8212,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "Oz" = (
@@ -8206,6 +8239,9 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/security/prison)
+"OD" = (
+/turf/closed/wall/rust,
+/area/security/prison/safe)
 "OI" = (
 /obj/machinery/door/poddoor/incinerator_toxmix,
 /turf/open/floor/engine/vacuum,
@@ -8282,6 +8318,9 @@
 	},
 /turf/open/floor/plating,
 /area/quartermaster/storage)
+"Pj" = (
+/turf/closed/wall/r_wall/rust,
+/area/security/prison)
 "Pk" = (
 /obj/machinery/door/airlock/maintenance{
 	req_access_txt = "12"
@@ -8565,6 +8604,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "Qq" = (
@@ -8786,7 +8826,7 @@
 	width = 40
 	},
 /turf/open/space/basic,
-/area/space/nearstation)
+/area/space)
 "Ro" = (
 /obj/machinery/button/door{
 	id = "commissarydoor";
@@ -8935,6 +8975,7 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "RW" = (
@@ -9116,6 +9157,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "SL" = (
@@ -9538,6 +9580,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "UX" = (
@@ -9817,6 +9860,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/engine/engineering)
+"WT" = (
+/turf/closed/wall/rust,
+/area/security/brig)
 "WV" = (
 /turf/closed/wall/r_wall,
 /area/engine/engineering)
@@ -10029,6 +10075,7 @@
 /obj/effect/turf_decal/tile/yellow{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/construction/mining/aux_base)
 "XW" = (
@@ -26832,11 +26879,11 @@ nv
 nv
 FM
 bU
-FM
-FM
-FM
-FM
-bU
+GP
+GP
+GP
+GP
+Hy
 FM
 FM
 FM
@@ -27868,7 +27915,7 @@ Xy
 Xy
 Xy
 Xy
-FM
+GP
 bJ
 bJ
 bJ
@@ -28125,7 +28172,7 @@ ZG
 ZG
 ZG
 ZG
-FM
+GP
 bJ
 bJ
 bJ
@@ -28382,7 +28429,7 @@ ZG
 ZG
 ZG
 ZG
-FM
+GP
 bJ
 bJ
 bJ
@@ -28629,7 +28676,7 @@ OO
 Gt
 nv
 Gt
-FM
+GP
 ZG
 ZG
 ZG
@@ -28639,7 +28686,7 @@ ZG
 ZG
 ZG
 ZG
-FM
+GP
 bJ
 bJ
 bJ
@@ -28886,7 +28933,7 @@ OO
 Gt
 nv
 Gt
-FM
+GP
 ZG
 ZG
 ZG
@@ -28896,7 +28943,7 @@ ZG
 ZG
 ZG
 ZG
-FM
+GP
 bJ
 bJ
 bJ
@@ -29143,7 +29190,7 @@ OO
 Gt
 nv
 Gt
-FM
+GP
 ZG
 ZG
 ZG
@@ -49780,7 +49827,7 @@ Yx
 MC
 MC
 CV
-lE
+IM
 Pz
 sV
 sV
@@ -50037,7 +50084,7 @@ Yx
 od
 xm
 xm
-lE
+IM
 UO
 pO
 SD
@@ -50542,10 +50589,10 @@ ZA
 Yx
 Yx
 Yx
-Yx
-Yx
-Yx
-Yx
+pj
+pj
+pj
+pj
 Yx
 Yx
 Yx
@@ -50804,7 +50851,7 @@ kL
 iq
 Jh
 Vt
-kL
+WT
 da
 tf
 ee
@@ -51057,7 +51104,7 @@ Yx
 uX
 Vn
 td
-kL
+WT
 hV
 Vn
 td
@@ -51314,7 +51361,7 @@ Yx
 fd
 cs
 fd
-kL
+WT
 fd
 in
 fd
@@ -51567,7 +51614,7 @@ uF
 hu
 Hv
 ee
-Yx
+pj
 Yz
 rs
 LZ
@@ -51588,7 +51635,7 @@ Xk
 Nd
 Nd
 Ak
-re
+OD
 re
 re
 re
@@ -51824,7 +51871,7 @@ pf
 tg
 rs
 Dy
-Yx
+pj
 pf
 rs
 rs
@@ -51845,7 +51892,7 @@ Xk
 Nd
 tT
 HZ
-re
+OD
 iH
 iH
 HU
@@ -52346,14 +52393,14 @@ kL
 kL
 kL
 kL
-Yx
+kL
 pf
 aW
 Dy
 kL
 kL
 kL
-kL
+WT
 kL
 qU
 Nd
@@ -52603,7 +52650,7 @@ kL
 fc
 dQ
 ml
-Yx
+kL
 jT
 aW
 eO
@@ -52860,7 +52907,7 @@ nE
 pf
 tg
 Dy
-Yx
+kL
 jq
 tg
 LE
@@ -53117,7 +53164,7 @@ kL
 GB
 Yg
 lJ
-Yx
+kL
 kH
 nR
 KO
@@ -54920,8 +54967,8 @@ gx
 wq
 AO
 ee
-Pb
-Ac
+Pj
+LG
 Ac
 Ac
 Ac
@@ -54929,8 +54976,8 @@ Fp
 bB
 bB
 xt
-Ac
-Ac
+LG
+LG
 Ac
 Ac
 Pb
@@ -55177,7 +55224,7 @@ cz
 pf
 tg
 LE
-Pb
+Pj
 do
 gD
 bB
@@ -55945,14 +55992,14 @@ Gt
 cQ
 cQ
 Yx
-Yx
-Yx
+pj
+pj
 Yx
 Pb
+LG
+LG
 Ac
-Ac
-Ac
-Ac
+LG
 gD
 bB
 rY
@@ -56209,7 +56256,7 @@ Pb
 nM
 kt
 mx
-Ac
+LG
 bB
 bB
 rY
