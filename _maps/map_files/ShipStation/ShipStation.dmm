@@ -940,7 +940,9 @@
 /turf/closed/wall,
 /area/science/xenobiology)
 "ev" = (
-/turf/open/floor/plasteel,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/toy/plush/lizardplushie,
+/turf/open/floor/plating,
 /area/quartermaster/storage)
 "eC" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -6481,9 +6483,6 @@
 "Gx" = (
 /turf/closed/wall/r_wall/rust,
 /area/quartermaster/storage)
-"Gy" = (
-/turf/closed/wall,
-/area/engine/engineering)
 "GA" = (
 /obj/effect/turf_decal/bot,
 /obj/structure/tank_holder/extinguisher,
@@ -30429,17 +30428,17 @@ Gt
 nv
 nv
 bJ
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
-Gy
+WV
+WV
+aj
+aj
+aj
+WV
+WV
+aj
+aj
+WV
+WV
 WV
 WV
 dv
@@ -32456,7 +32455,7 @@ Xr
 Xr
 Xr
 Gx
-ev
+PI
 ac
 Xc
 wh
@@ -32970,7 +32969,7 @@ Xr
 Xr
 Mp
 Gx
-ev
+PI
 ac
 Fv
 aG

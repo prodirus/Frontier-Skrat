@@ -63,7 +63,6 @@
 	},
 /area/ruin/unpowered)
 "kP" = (
-/obj/item/disk/nuclear/fake/obvious,
 /obj/structure/girder,
 /turf/open/floor/plating/airless,
 /area/ruin/unpowered)
